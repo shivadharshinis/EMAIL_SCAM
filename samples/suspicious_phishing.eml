@@ -1,0 +1,34 @@
+Return-Path: <bounce@promo-alerts.example>
+Received: from outbound.promo-alerts.example (outbound.promo-alerts.example [198.51.100.44])
+	by inbox.acme.example.com with ESMTP id PHISH001
+	for <jordan.lee@acme.example.com>; Mon, 05 Oct 2026 10:02:11 +0000
+From: "PayPal Security" <service@paypal-secure.example>
+To: jordan.lee@acme.example.com
+Reply-To: account-review@paypal-secure.example
+Subject: Urgent: confirm your PayPal password now
+Date: Mon, 05 Oct 2026 10:01:50 +0000
+Message-ID: <urgent-reset@paypal-secure.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="BOUNDARY123"
+
+--BOUNDARY123
+Content-Type: text/plain; charset="utf-8"
+
+Your account will be locked in 15 minutes.
+
+Confirm your password here:
+http://paypal-secure.example/login?user=jordan
+Also see www.paypal-secure.example/verify
+
+--BOUNDARY123
+Content-Type: text/html; charset="utf-8"
+
+<html>
+  <body>
+    <script>alert('this should never run')</script>
+    <p>Your account will be locked in 15 minutes.</p>
+    <p><a href="http://paypal-secure.example/login?user=jordan">Confirm password</a></p>
+    <img src="http://tracker.promo-alerts.example/pixel.gif" alt="tracker">
+  </body>
+</html>
+--BOUNDARY123--

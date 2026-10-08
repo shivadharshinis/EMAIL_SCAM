@@ -1,0 +1,29 @@
+Return-Path: <it-helpdesk@acme.example.com>
+Received: from mail.acme.example.com (mail.acme.example.com [192.0.2.10])
+	by inbox.acme.example.com with ESMTPS id ABC123
+	for <jordan.lee@acme.example.com>; Mon, 05 Oct 2026 09:15:00 +0000
+Authentication-Results: inbox.acme.example.com;
+	spf=pass smtp.mailfrom=acme.example.com;
+	dkim=pass header.d=acme.example.com;
+	dmarc=pass header.from=acme.example.com
+Received-SPF: pass (sender SPF authorized) client-ip=192.0.2.10; envelope-from=it-helpdesk@acme.example.com
+DKIM-Signature: v=1; a=rsa-sha256; d=acme.example.com; s=selector1;
+	h=from:to:subject:date:message-id; bh=fakehash==; b=fakesignature==
+From: "Acme IT Helpdesk" <it-helpdesk@acme.example.com>
+To: "Jordan Lee" <jordan.lee@acme.example.com>
+Cc: facilities@acme.example.com
+Reply-To: it-helpdesk@acme.example.com
+Subject: Scheduled maintenance window this Sunday
+Date: Mon, 05 Oct 2026 09:14:44 +0000
+Message-ID: <maint-20261005@mail.acme.example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hello Jordan,
+
+This is a reminder that building Wi-Fi will be upgraded on Sunday from 02:00 to 04:00 UTC.
+
+No action is required. If you have questions, reply to this email or visit https://intranet.acme.example.com/maintenance
+
+Thank you,
+Acme IT

@@ -1,0 +1,30 @@
+Return-Path: <newsletter@news.example.net>
+Received: from mx2.acme.example.com (mx2.acme.example.com [192.0.2.20])
+	by inbox.acme.example.com
+	with ESMTPS id LASTHOP
+	for <jordan.lee@acme.example.com>; Mon, 05 Oct 2026 11:45:01 +0000
+Received: from relay.news.example.net (relay.news.example.net [198.51.100.8])
+	by mx2.acme.example.com with ESMTPS id MIDHOP
+	for <jordan.lee@acme.example.com>; Mon, 05 Oct 2026 11:44:40 +0000
+Received: from origin.news.example.net (origin.news.example.net [203.0.113.55])
+	by relay.news.example.net with ESMTP id FIRSTHOP
+	for <jordan.lee@acme.example.com>; Mon, 05 Oct 2026 11:44:10 +0000
+Authentication-Results: inbox.acme.example.com;
+	spf=pass smtp.mailfrom=news.example.net;
+	dkim=pass header.d=news.example.net;
+	dmarc=pass header.from=news.example.net
+Received-SPF: pass (example.net: domain of newsletter@news.example.net designates 203.0.113.55 as permitted sender)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=news.example.net; s=s1;
+	h=from:to:subject:date:message-id; bh=placeholder==; b=placeholder==
+ARC-Authentication-Results: i=1; inbox.acme.example.com; dmarc=pass header.from=news.example.net
+From: "Example Net News" <newsletter@news.example.net>
+To: "Jordan Lee" <jordan.lee@acme.example.com>
+Subject: Weekly product digest
+Date: Mon, 05 Oct 2026 11:44:00 +0000
+Message-ID: <digest-20261005@news.example.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+This week's digest is available at https://news.example.net/digest/2026-10-05
+
+You are receiving this because you subscribed on example.net.

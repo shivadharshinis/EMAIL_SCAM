@@ -1,0 +1,21 @@
+subject,text,label
+"Team meeting agenda","Hello team, the agenda for Monday's project meeting is attached. Please add updates before the meeting.",0
+"Planned maintenance notice","The internal document portal will be unavailable Sunday from 02:00 to 03:00 UTC for planned maintenance.",0
+"Your weekly newsletter","Here is this week's product newsletter with updates and articles from our example organization.",0
+"Lunch order confirmation","Your cafeteria order for Tuesday has been received. The total is shown in the normal employee portal.",0
+"Travel itinerary","Your approved travel itinerary is available in the company travel system. No reply is required.",0
+"Project status update","The project status report is ready for review at the next scheduled team meeting.",0
+"Community event reminder","This is a reminder about the example community event on Saturday. We hope to see you there.",0
+"Subscription receipt","Thank you for your subscription. This receipt is available in your account settings.",0
+"Training registration","Your registration for the security awareness course is confirmed for next Wednesday.",0
+"Document review request","Please review the shared project notes before the regular Friday check-in.",0
+"Urgent account suspension","Act now: your account will be suspended in 15 minutes. Confirm your password at http://login.example.test/verify.",1
+"Security alert verify now","We detected unusual activity. Verify your identity and security code immediately at http://secure.example.test/login.",1
+"Payment overdue","Your payment is overdue. Send payment and confirm your bank details immediately to avoid account closure.",1
+"Reset your password","Your password expires today. Sign in and provide your current password at http://password.example.test/reset.",1
+"Invoice attached urgently","Urgent invoice attached. Open it and pay the outstanding amount within 10 minutes.",1
+"Confirm your credentials","Confirm your login credentials now or your mailbox will be disabled.",1
+"Final verification notice","Final notice: verify your account information immediately to prevent suspension.",1
+"Unexpected wire transfer","A wire transfer is waiting. Send your bank details and payment confirmation to release it.",1
+"Security account warning","Your security account has a suspicious sign-in. Login and provide the requested passcode now.",1
+"Immediate mailbox action","Your mailbox will be closed today. Click to verify your password and restore access.",1

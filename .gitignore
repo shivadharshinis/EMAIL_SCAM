@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Uploads / generated artifacts
+backend/uploads/
+backend/reports/
+backend/app/engines/ml/artifacts/*.joblib
+backend/app/engines/ml/artifacts/metrics.json
+backend/app/engines/ml/data/raw/*
+!backend/app/engines/ml/data/raw/.gitkeep
+backend/app/engines/ml/data/derived/*
+!backend/app/engines/ml/data/derived/.gitkeep
+backend/app/engines/ml/data/reports/*
+!backend/app/engines/ml/data/reports/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sw?

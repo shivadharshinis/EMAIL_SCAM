@@ -1,0 +1,56 @@
+{
+  "sources": [
+    {
+      "source_name": "Nazario Phishing Corpus (curated Zenodo copy)",
+      "original_url": "https://zenodo.org/records/8339691",
+      "zenodo_doi": "10.5281/zenodo.8339691",
+      "authors": ["Arifa Islam Champa", "Fazle Rabbi", "Minhaz F. Zibran"],
+      "license": "CC BY 4.0 (Zenodo record; underlying corpus terms require review)",
+      "attribution": "Champa, Rabbi, and Zibran, 2024; cite the Zenodo record and its listed papers",
+      "access_date": "2026-10-06",
+      "downloaded_files": ["Nazario.csv", "Nazario_5.csv"],
+      "label_policy": "Only rows explicitly labeled 1 are phishing. Nazario variants are compared and deduplicated.",
+      "notes": "Nazario.csv contains 1,565 phishing rows; Nazario_5.csv contains 1,565 phishing and 1,500 legitimate rows before cleaning.",
+      "limitations": "Variant provenance and overlap must be audited; the curated package license does not automatically resolve upstream terms."
+    },
+    {
+      "source_name": "Phishing validation emails dataset",
+      "original_url": "https://research.utwente.nl/en/datasets/phishing-validation-emails-dataset/",
+      "zenodo_doi": "10.5281/zenodo.13474746",
+      "authors": ["Radoslav Miltchev", "Dimitar Rangelov", "Evgeni Genchev"],
+      "license": "CC BY 4.0",
+      "attribution": "Miltchev, Rangelov, and Genchev; cite DOI 10.5281/zenodo.13474746",
+      "access_date": "2026-10-06",
+      "downloaded_files": ["Phishing_validation_emails.csv"],
+      "label_policy": "Only Email Type=Phishing Email is label 1; Safe Email is label 0. A deterministic holdout is reserved.",
+      "notes": "The published file contains 2,000 rows: 1,000 safe and 1,000 phishing.",
+      "limitations": "The dataset mixes real-world and artificially generated messages and is described as a validation dataset; exact overlap with Nazario is unknown until audit."
+    },
+    {
+      "source_name": "Enron",
+      "original_url": "https://zenodo.org/records/8339691",
+      "zenodo_doi": "10.5281/zenodo.8339691",
+      "authors": ["Original Enron corpus contributors; curated copy metadata applies"],
+      "license": "Review required; no independent redistribution license asserted here",
+      "attribution": "Credit the original Enron corpus and Zenodo curated record",
+      "access_date": "2026-10-06",
+      "downloaded_files": ["Enron.csv"],
+      "label_policy": "Used only as legitimate organizational email, never as phishing.",
+      "notes": "Raw Enron content may contain personal or confidential information; derived text is for local research use.",
+      "limitations": "Historical, organizational, and privacy bias; raw data should not be redistributed unnecessarily."
+    },
+    {
+      "source_name": "SpamAssassin Public Corpus (ham only)",
+      "original_url": "https://spamassassin.apache.org/old/publiccorpus/",
+      "zenodo_doi": "10.5281/zenodo.8339691",
+      "authors": ["SpamAssassin project"],
+      "license": "Review source terms before redistribution",
+      "attribution": "Attribute the Apache SpamAssassin Public Corpus",
+      "access_date": "2026-10-06",
+      "downloaded_files": ["SpamAssasin.csv"],
+      "label_policy": "Only explicit ham/legitimate rows are used as label 0. Spam is excluded and is not relabeled phishing.",
+      "notes": "The Zenodo filename is spelled SpamAssasin.csv.",
+      "limitations": "Ham is not necessarily representative of modern legitimate mail; spam is not strict phishing."
+    }
+  ]
+}

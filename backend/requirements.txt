@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pymysql
+pydantic-settings
+python-dotenv
+cryptography
+python-multipart
+pytest
+httpx
+scikit-learn==1.7.2
+joblib
+reportlab
+PyJWT
